@@ -1,11 +1,20 @@
 ﻿
+
 @{
     Layout = null;
 }
-
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
 <!DOCTYPE html>
 
 <h1>Yeni Kategori Ekleme Sayfası</h1>
 <br />
 
-hoş geldiniz.
+<form class="form-group" method="post">
+
+    <input type="text" placeholder="Kategori adını giriniz.." class="form-control" name="CategoryName" />
+    <br />
+    <input type="text" placeholder="Açıklama giriniz.." class="form-control" name="CategoryDescription" />
+    <br />
+    <button class="btn btn-primary">Ekle</button>
+</form>
+

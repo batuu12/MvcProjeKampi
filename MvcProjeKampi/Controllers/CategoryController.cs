@@ -17,15 +17,22 @@ namespace MvcProjeKampi.Controllers
         {
             return View();
         }
-
         public ActionResult GetCategoryList()
         {
-            var categoryValues = cm.GetAll();
+            //var categoryValues = cm.GetAll();
             return View(categoryValues);
         }
+
+        [HttpGet]
+        public ActionResult AddCategory()
+        {
+            return View();
+        }
+
+        [HttpPost]
         public ActionResult AddCategory(Category p)
         {
-            cm.CategoryAddBL(p);
+            //cm.CategoryAddBL(p);
             return RedirectToAction("GetCategoryList");
         }
     }
