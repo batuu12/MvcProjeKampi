@@ -2284,7 +2284,7 @@
     <Content Include="AdminLTE-3.0.4\plugins\toastr\toastr.js.map" />
     <Content Include="AdminLTE-3.0.4\README.md" />
     <Content Include="CoreTemplateWeb2-master\.gitattributes" />
-    <Content Include="İstatistik Ekran Görüntüsü.jpg" />
+    <Content Include="Views\Statistics\İstatistik Ekran Görüntüsü.jpg" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
