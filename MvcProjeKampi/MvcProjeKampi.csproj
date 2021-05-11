@@ -135,6 +135,7 @@
     <Compile Include="Controllers\AdminCategoryController.cs" />
     <Compile Include="Controllers\CategoryController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\StatisticsController.cs" />
     <Compile Include="Controllers\TestController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -1979,6 +1980,47 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="CoreTemplateWeb2-master\css\bootstrap.css" />
+    <Content Include="CoreTemplateWeb2-master\css\clndr.css" />
+    <Content Include="CoreTemplateWeb2-master\css\jqvmap.css" />
+    <Content Include="CoreTemplateWeb2-master\css\nav.css" />
+    <Content Include="CoreTemplateWeb2-master\css\style.css" />
+    <Content Include="CoreTemplateWeb2-master\images\ar2.png" />
+    <Content Include="CoreTemplateWeb2-master\images\arrows.png" />
+    <Content Include="CoreTemplateWeb2-master\images\avatar.jpg" />
+    <Content Include="CoreTemplateWeb2-master\images\avatar1.jpg" />
+    <Content Include="CoreTemplateWeb2-master\images\avatar2.jpg" />
+    <Content Include="CoreTemplateWeb2-master\images\img-sprite.png" />
+    <Content Include="CoreTemplateWeb2-master\images\into.png" />
+    <Content Include="CoreTemplateWeb2-master\images\into1.png" />
+    <Content Include="CoreTemplateWeb2-master\images\logo.png" />
+    <Content Include="CoreTemplateWeb2-master\images\pp.jpg" />
+    <Content Include="CoreTemplateWeb2-master\images\pp0.jpg" />
+    <Content Include="CoreTemplateWeb2-master\images\pp01.jpg" />
+    <Content Include="CoreTemplateWeb2-master\images\settings.png" />
+    <Content Include="CoreTemplateWeb2-master\images\tick-mark.png" />
+    <Content Include="CoreTemplateWeb2-master\index.html" />
+    <Content Include="CoreTemplateWeb2-master\js\Chart1.js" />
+    <Content Include="CoreTemplateWeb2-master\js\clndr.js" />
+    <Content Include="CoreTemplateWeb2-master\js\easyResponsiveTabs.js" />
+    <Content Include="CoreTemplateWeb2-master\js\jquery.easydropdown.js" />
+    <Content Include="CoreTemplateWeb2-master\js\jquery.min.js" />
+    <Content Include="CoreTemplateWeb2-master\js\jquery.nicescroll.js" />
+    <Content Include="CoreTemplateWeb2-master\js\jquery.vmap.js" />
+    <Content Include="CoreTemplateWeb2-master\js\jquery.vmap.sampledata.js" />
+    <Content Include="CoreTemplateWeb2-master\js\jquery.vmap.world.js" />
+    <Content Include="CoreTemplateWeb2-master\js\main.js" />
+    <Content Include="CoreTemplateWeb2-master\js\moment-2.2.1.js" />
+    <Content Include="CoreTemplateWeb2-master\js\site.js" />
+    <Content Include="CoreTemplateWeb2-master\js\underscore-min.js" />
+    <Content Include="CoreTemplateWeb2-master\resimler\book1.jpg" />
+    <Content Include="CoreTemplateWeb2-master\resimler\book2.jpg" />
+    <Content Include="CoreTemplateWeb2-master\resimler\book3.jpg" />
+    <Content Include="CoreTemplateWeb2-master\resimler\book4.jpg" />
+    <Content Include="CoreTemplateWeb2-master\resimler\book5.jpg" />
+    <Content Include="CoreTemplateWeb2-master\resimler\img1.jpg" />
+    <Content Include="CoreTemplateWeb2-master\w3layouts-License.txt" />
+    <Content Include="CoreTemplateWeb2-master\Yeni Metin Belgesi.txt" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -2241,6 +2283,8 @@
     <Content Include="AdminLTE-3.0.4\plugins\sweetalert2-theme-bootstrap-4\bootstrap-4.scss" />
     <Content Include="AdminLTE-3.0.4\plugins\toastr\toastr.js.map" />
     <Content Include="AdminLTE-3.0.4\README.md" />
+    <Content Include="CoreTemplateWeb2-master\.gitattributes" />
+    <Content Include="İstatistik Ekran Görüntüsü.jpg" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -2277,6 +2321,7 @@
     <Content Include="Views\AdminCategory\Index.cshtml" />
     <Content Include="Views\AdminCategory\AddCategory.cshtml" />
     <Content Include="Views\AdminCategory\EditCategory.cshtml" />
+    <Content Include="Views\Statistics\Statistics.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
