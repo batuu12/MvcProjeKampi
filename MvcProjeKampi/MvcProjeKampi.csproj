@@ -134,6 +134,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AdminCategoryController.cs" />
     <Compile Include="Controllers\CategoryController.cs" />
+    <Compile Include="Controllers\HeadingController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\StatisticsController.cs" />
     <Compile Include="Controllers\TestController.cs" />
@@ -192,6 +193,7 @@
     <Content Include="AdminLTE-3.0.4\dist\img\credit\paypal2.png" />
     <Content Include="AdminLTE-3.0.4\dist\img\credit\visa.png" />
     <Content Include="AdminLTE-3.0.4\dist\img\default-150x150.png" />
+    <Content Include="AdminLTE-3.0.4\dist\img\depositphotos_384501282-stock-illustration-default-avatar-profile-icon-trendy.jpg" />
     <Content Include="AdminLTE-3.0.4\dist\img\icons.png" />
     <Content Include="AdminLTE-3.0.4\dist\img\photo1.png" />
     <Content Include="AdminLTE-3.0.4\dist\img\photo2.png" />
@@ -2325,6 +2327,9 @@
     <Content Include="Views\Statistics\Statistics.cshtml" />
     <Content Include="Views\Writer\Index.cshtml" />
     <Content Include="Views\Writer\AddWriter.cshtml" />
+    <Content Include="Views\Writer\EditWriter.cshtml" />
+    <Content Include="Views\Heading\Index.cshtml" />
+    <Content Include="Views\Heading\AddHeading.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

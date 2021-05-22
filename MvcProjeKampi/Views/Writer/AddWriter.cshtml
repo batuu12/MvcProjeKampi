@@ -32,6 +32,10 @@
         @Html.Label("Yazar Görsel Linki")
         @Html.TextBoxFor(x=>x.WriterImage,new { @class = "form-contol" })
         @Html.ValidationMessageFor(x=>x.WriterImage)
+        <br /> 
+        @Html.Label("Yazar Unvanı")
+        @Html.TextBoxFor(x=>x.WriterTitle,new { @class = "form-contol" })
+        @Html.ValidationMessageFor(x=>x.WriterTitle)
         <br />
         @Html.Label("Yazar Hakkında")
         @Html.TextBoxFor(x=>x.WriterAbout,new { @class = "form-contol" })

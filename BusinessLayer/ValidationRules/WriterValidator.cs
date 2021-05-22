@@ -18,11 +18,13 @@ namespace BusinessLayer.ValidationRules
             RuleFor(x => x.WriterSurname).MinimumLength(3).WithMessage("Lütfen en az 3 karakter girişi yapınız.");
             RuleFor(x => x.WriterSurname).MaximumLength(50).WithMessage("Lütfen 20 karakterden fazla değer girişi yapmayınız.");
             RuleFor(x => x.WriterAbout).MaximumLength(50).WithMessage("Hakkımda kısmını boş geçemezsiniz.");
+            RuleFor(x => x.WriterTitle).NotEmpty().WithMessage("Ünvan kısmını boş geçemezsiniz.");
         }
 
         private bool ContainA(string arg)
         {
             return arg.Contains("a");
+
         }
     }
 }
