@@ -8,18 +8,12 @@ using System.Web.Mvc;
 
 namespace MvcProjeKampi.Controllers
 {
-    public class ContentController : Controller
+    public class AboutController : Controller
     {
-        // GET: Content
-        ContentManager cm = new ContentManager(new EfContentDal());
+        AboutManager am = new AboutManager(new EfAboutDal());
         public ActionResult Index()
         {
             return View();
-        }
-        public ActionResult ContentByHeading(int id)
-        {
-            var contentValues = cm.GetListByHeadingId(id);
-            return View(contentValues);
         }
     }
 }
